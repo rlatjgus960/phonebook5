@@ -108,7 +108,7 @@
 	</update>
 
 	<!-- 전화번호 수정2 -->
-	<update id="updatePerson2" parameterType="map">  
+	<update id="updatePerson2" parameterType="com.javaex.vo.PersonVo">  
 		<![CDATA[
 			update  person
 			set	name = #{name},
